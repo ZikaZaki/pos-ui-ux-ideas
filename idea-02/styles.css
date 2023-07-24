@@ -189,17 +189,18 @@ body {
   margin: 0;
   padding: 0 px;
 }
+
 .search-input {
   display: flex;
   border: none;
   font-size: 14px;
   outline: none;
   color: #085f63;
-/*   background: pink; */
   min-height: 32px;
   width: 100%;
   padding: 0 3px;
 }
+
 .search-form > button {
   font-size: 18px;
   border: none;
@@ -210,6 +211,7 @@ body {
   min-height: 32px;
   min-width: 32px;
 }
+
 .search-form > button:hover {
   color: gray;
 }
@@ -221,57 +223,64 @@ body {
   min-width: 377px;
   height: 100%;
 }
-/* .bill-nav {
-  min-height: 55px;
-  width: 100%;
-  background: aqua;
-} */
+
 .bill-header {
   min-height: 45px;
   width: 100%;
   background: pink;
 }
+
 .bill-items {
   height: 100%;
   width: 100%;
   background: darkgray;
 }
+
 .bill-control {
   display: grid;
   grid-template-rows: 35% 65%;
   min-height: 233px;
   width: 100%;
 }
+
 .bill-control button {
   border-radius: 3px;
 }
+
 .top-row {
   display: grid;
   grid-template-columns: 40% 20% 25% 15%;
 }
+
 .bottom-row {
   display: grid;
   grid-template-columns: 40% 60%;
 }
+
 .quotation-order-btn {
   grid-column: 2 / span 3;
 }
+
 .action-btns {
   display: grid;
   grid-template-columns: 50% 50%;
   height: 100%;
 }
+
 .pay-btn {
   grid-column: 1 / span 2;
   grid-row: 1 / span 5;
   background: green;
 }
+
 .cancel-btn {
   background: red;
 }
+
 .hold-btn {
   background: orange;
 }
+
 .numpad-btns {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
