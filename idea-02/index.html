@@ -1,1 +1,96 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>POS</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <button>Moosnad</button>
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div class="menu-btn">></div>
+      </div>
+      <div class="products-container">
+        <div class="products-nav">
+          <div class="products-breadcrump">
+            <button class="home-btn"><i class="fa fa-home"></i></button>
+            <span>/</span>
+            <span>Categories</span>
+            <span>/</span>
+            <span>Food</span>
+            <span>/</span> 
+            <span>Pizza</span>
+            </div>
+          <div class="search-container">
+            <button class="barcode-btn">
+              <label for="barcodeinput">
+                <input id="barcodeinput" type="checkbox" />
+                  <i class="fa fa-qrcode"></i>
+              </label>
+            </button>
+            <div class="search-box">
+              <form class="search-form">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <input class="search-input" type="text" placeholder="Search..." />
+                <button type="submit"><i class="fa fa-sliders"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bill-container">
+<!--         <div class="bill-nav"></div> -->
+<!--         <div class="bill-header"></div> -->
+        <div class="bill-items"></div>
+        <div class="bill-total"></div>
+        <div class="bill-control">
+          <div class="top-row">
+                <button>Customer Note</button>
+              <button>Refund</button>
+              <button>Enter code</button>
+              <button>Info</button>
+              <button class="customer-btn">Customer</button>
+              <button class="quotation-order-btn">Quotation/Order</button>
+          </div>
+          <div class="bottom-row">
+            <div class="action-btns">
+              <button class="pay-btn">
+                <span>></span>
+                <span>Payment</span>
+              </button>
+              <button class="cancel-btn">Cancel</button>
+              <button class="hold-btn">## Hold</button>
+            </div>
+            <div class="numpad-btns">
+              <button>1</button>
+              <button>2</button>
+              <button>3</button>
+              <button>Qty</button>
+              <button>4</button>
+              <button>5</button>
+              <button>6</button>
+              <button>%Disc</button>
+              <button>7</button>
+              <button>8</button>
+              <button>9</button>
+              <button>Price</button>
+              <button>+/-</button>
+              <button>0</button>
+              <button>.</button>
+              <button>x</button>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
