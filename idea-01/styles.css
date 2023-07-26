@@ -159,6 +159,7 @@ body {
 .bill-header >:nth-child(1){
   text-align: justify;
 }
+
 .bill-body {
   font-size: 14px;
   display: flex;
@@ -166,6 +167,7 @@ body {
   overflow-x: hidden;
 /*   background-color: yellow; */
 }
+
 .bill-item {
 /*   display: flex;
   justify-content: space-between;
@@ -181,6 +183,7 @@ body {
   padding: 0.15rem;
 /*   background-color: lightgray; */
 }
+
 .bill-item > * {
   display: inline-block;
 /*   border: solid 2px blue; */
@@ -189,14 +192,17 @@ body {
   overflow: hidden;
 /*   background-color: yellow; */
 }
+
 .bill-item >:nth-child(1){
   text-align: justify;
 }
+
 .bill-item:nth-child(odd) {
 /*   background-color: #B9D5E1; */
 /*   background-color: #d5e6ed; */
   background-color: #e3eef3;
 }
+
 .total-container {
   font-size: 14px;
   display: flex;
@@ -210,16 +216,19 @@ body {
   justify-content: space-evenly;
   padding: 0.15rem;
 }
+
 .total-container > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .total {
   margin-top: 0.35rem;
   font-size: 18px;
   font-weight: bold;
 }
+
 .bottom-btns {
   display: flex;
   justify-content: space-between;
@@ -231,6 +240,7 @@ body {
 /*   background-color: blue; */
 /*   background-color: #6A8794; */
 }
+
 .bottom-btns > button {
   height: 100%;
   border-radius: 0.15rem;
@@ -239,6 +249,7 @@ body {
   border: none;
   color: white;
 }
+
 .right-container {
   display: flex;
   flex-direction: column;
@@ -248,6 +259,7 @@ body {
   width: 100%;
 /*   background-color: azure; */
 }
+
 .products-nav {
   font-size: 14px;
 /*   font-weight: bold; */
@@ -262,6 +274,7 @@ body {
   background-color: #6A8794;
   padding: 0.15rem;
 }
+
 .products-nav > input {
   width: 100%;
   height: 100%;
@@ -272,6 +285,7 @@ body {
   border-radius: 0.15rem;
   padding: 0 0.15rem;
 }
+
 .products-container {
   display: flex;
   flex-direction: column;
@@ -300,9 +314,11 @@ body {
 /*   background-color: lightgray; */
   background-color: #B9D5E1;
 }
+
 .slash {
   padding: 0 0.15rem;
 }
+
 .products {
   display: flex;
   flex-flow: wrap;
@@ -324,6 +340,7 @@ body {
 /*   padding: 0.15rem; */
   overflow-x: hidden;
 }
+
 .item {
   display: flex;
   border-radius: 0.25rem;
@@ -334,6 +351,7 @@ body {
   background-color: #6A8794;
   text-align: center;
 }
+
 .categories {
   height: 30%;
   width: 100%;
@@ -341,5 +359,3 @@ body {
 /*   padding: 0.15rem; */
   background-color: #6A8794;
 }
-
-
