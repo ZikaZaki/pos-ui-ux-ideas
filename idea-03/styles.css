@@ -15,6 +15,7 @@
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
 }
+
 *::-webkit-scrollbar-track {
   border-radius: 5px;
   background-color: #DFE9EB;
@@ -74,6 +75,7 @@ body {
   height: 100%;
 /*   background: pink; */
 }
+
 .logo {
   font-size: 18px;
   font-weight: bolder;
@@ -82,15 +84,15 @@ body {
   min-height: 50px;
   width: 100%;
 }
+
 .side-menu {
   display: flex;
   flex-direction: column;
   gap: 5px;
-/*   align-items: center; */
-/*   justify-content: center; */
   height: 100%;
   width: 100%;
 }
+
 .menu-btn {
   font-size: 28px;
   display: flex;
