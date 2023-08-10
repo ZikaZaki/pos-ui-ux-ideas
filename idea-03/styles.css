@@ -103,10 +103,12 @@ body {
   color: #a6a6a6;
   padding: 34px 4px;
 }
+
 .menu-btn:hover {
   color: gray;
 /*   background: gray; */
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -124,9 +126,9 @@ body {
   width: 100%;
   border-radius: 8px;
 }
+
 .products-nav {
   font-size: 14px;
-/*   font-weight: bold; */
   display: flex;
   justify-content: space-between;
   align-items: center;
