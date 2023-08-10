@@ -155,14 +155,17 @@ body {
   height: 35px;
   width: 35px;
 }
+
 .products-nav button:hover {
   color: gray;
 }
+
 .barcode-btn:has(input:checked) {
   background: orange;
   text-align: center;
   color: white;
 }
+
 #barcodeinput {
   display: none;
 }
