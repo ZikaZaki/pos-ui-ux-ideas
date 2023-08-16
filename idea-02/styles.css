@@ -63,11 +63,13 @@ body {
   height: 100%;
 /*   padding: 5px; */
 }
+
 .header {
   height: 34px;
   width: 100%;
   background: darkslateblue;
 }
+
 .content {
   display: flex;
   gap: 5px;
@@ -76,6 +78,7 @@ body {
   background: gray;
   overflow-x: hidden;
 }
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -90,6 +93,7 @@ body {
   background: gray;
   color: white;
 }
+
 .products-container {
   display: flex;
   flex-direction: column;
