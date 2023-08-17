@@ -298,15 +298,18 @@ body {
   width: 100%;
   background: white;
 }
+
 .bill-items .item .name {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+
 .bill-items .item:nth-child(odd) {
   background-color: lavender;
 }
+
 .bill-total {
   background: ghostwhite;
 /*   border-radius: 8px; */
@@ -314,6 +317,7 @@ body {
   width: 100%;
   padding: 5px;
 }
+
 .bill-total ul {
   display: flex;
   flex-direction: column;
@@ -323,19 +327,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .bill-total ul li {
   display: flex;
   justify-content: space-between;
   aign-items: center;
   text-align: center;
 }
+
 .bill-total hr {
   border-top: 2px dotted;
 }
+
 .bill-value {
   font-weight: bold;
   color: #2c2c2c;
 }
+
 .total {
   font-size: 16px;
   font-weight: bolder;
