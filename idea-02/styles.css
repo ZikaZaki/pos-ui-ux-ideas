@@ -154,6 +154,7 @@ body {
   align-items: center;
   gap: 3px;
 }
+
 .barcode-btn {
   font-size: 24px;
   display: flex;
@@ -165,15 +166,18 @@ body {
   min-height: 32px;
   min-width: 32px;
 }
+
 .barcode-btn > label {
   padding-top: 2px;
   width: 100%;
 /*   border: 1px solid black; */
 }
+
 .barcode-btn>*:hover {
   color: gray;
   cursor: pointer;
 }
+
 .search-box {
   display: flex;
   justify-content: start;
@@ -184,12 +188,14 @@ body {
   min-width: 233px;
   border: 2px solid #76b39d;
 }
+
 .search-form {
   display: flex;
   width: 100%;
   margin: 0;
   padding: 0 px;
 }
+
 .search-input {
   display: flex;
   border: none;
@@ -201,6 +207,7 @@ body {
   width: 100%;
   padding: 0 3px;
 }
+
 .search-form > button {
   font-size: 18px;
   border: none;
