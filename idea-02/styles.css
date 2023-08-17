@@ -264,6 +264,7 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
+
 /* .bill-nav {
   min-height: 55px;
   width: 100%;
@@ -274,6 +275,7 @@ body {
   width: 100%;
   background: pink;
 } */
+
 .bill-items {
   display: flex;
   flex-direction: column;
@@ -284,6 +286,7 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
 .bill-items .item {
   display: flex;
   flex-direction: column;
