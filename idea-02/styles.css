@@ -49,7 +49,6 @@ body {
   font-size: 14px;
   height: 100%;
   width: 100%;
-/*   background-color: #EBF9FF; */
   background-color: white;
   overflow: hidden;
   -webkit-text-size-adjust: 100%;
@@ -62,7 +61,6 @@ body {
   background: yellow;
   wdith: 100%;
   height: 100%;
-/*   padding: 5px; */
 }
 
 .header {
@@ -84,7 +82,6 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 45px;
-/*   width: 233px; */
   height: 100%;
   background: pink;
 }
