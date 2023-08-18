@@ -379,10 +379,12 @@ body {
   grid-template-columns: 50% 50%;
   height: 100%;
 }
+
 .customer-btn {
   grid-column: 1 / span 2;
   grid-row: 1 / span 1;
 }
+
 .pay-btn {
   grid-column: 1 / span 2;
   grid-row: 2 / span 3;
