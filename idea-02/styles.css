@@ -393,9 +393,11 @@ body {
 .cancel-btn {
   background: red;
 }
+
 .hold-btn {
   background: orange;
 }
+
 .numpad-btns {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
