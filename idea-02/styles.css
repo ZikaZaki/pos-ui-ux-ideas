@@ -387,6 +387,7 @@ body {
   grid-row: 2 / span 3;
   background: green;
 }
+
 .cancel-btn {
   background: red;
 }
