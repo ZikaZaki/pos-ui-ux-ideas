@@ -130,8 +130,6 @@ body {
   border: none;
   outline: none;
   background: transparent;
-/*   min-width: 32px; */
-/*   min-height: 32px;  */
 }
 
 /* The :has() property not supported by Firefox */
