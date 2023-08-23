@@ -72,7 +72,6 @@ body {
   min-width: 45px;
 /*   width: 233px; */
   height: 100%;
-/*   background: pink; */
 }
 
 .logo {
@@ -105,7 +104,6 @@ body {
 
 .menu-btn:hover {
   color: gray;
-/*   background: gray; */
 }
 
 .container {
@@ -114,7 +112,6 @@ body {
   gap: 5px;
   height: 100%;
   width: 100%;
-/*   background: gray; */
   overflow-x: hidden;
 }
 
