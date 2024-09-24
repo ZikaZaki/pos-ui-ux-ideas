@@ -8,38 +8,33 @@
   -moz-sox-font-smoothing: grayscale;
   font-kerning: auto;
 /* SCROLL */
-  scrollbar-width: thin;
-  scrollbar-color: #6A8794 #6A8794;
+/*   scrollbar-width: thin; */
+/*   scrollbar-color: #6A8794 #6A8794; */
 }
 
-/* Chrome, Edge and Safari */
-*::-webkit-scrollbar {
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 8px;               /* Width of the scrollbar */
+    height: 8px;              /* Height for horizontal scrollbars (if needed) */
 }
 
-*::-webkit-scrollbar-track {
-  border-radius: 5px;
-  background-color: #DFE9EB;
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #f0f0f0;      /* Background of the scrollbar track */
+    border-radius: 10px;      /* Rounded corners */
 }
 
-*::-webkit-scrollbar-track:hover {
-  background-color: #B8C0C2;
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;  /* Color of the scrollbar */
+    border-radius: 10px;        /* Roundness of the scrollbar thumb */
+    border: 2px solid transparent; /* Adds spacing between the scrollbar and the track */
+    background-clip: padding-box;  /* Makes sure the border doesn't overlap the thumb */
 }
 
-*::-webkit-scrollbar-track:active {
-  background-color: #B8C0C2;
-}
-
-*::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: #6A8794;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-  background-color: #6A8794;
-}
-
-*::-webkit-scrollbar-thumb:active {
-  background-color: #869ea9;
+/* Scrollbar Thumb Hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #9e9e9e;   /* Darker color on hover */
 }
 
 html,
@@ -269,15 +264,16 @@ body {
 .bill-container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
   overflow-x: hidden;
   min-width: 377px;
   height: 100%;
   border-radius: 8px;
   background: #ffffff;
-/*   padding: 8px; */
+  padding: 8px;
 }
 .bill-items {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -285,9 +281,19 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  padding: 8px;
+  padding: 8px 6px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  box-shadow: 
+      inset -1px -1px 2px rgba(0, 0, 0, 0.1),  /* Softer inset shadow from top and left */
+      inset 1px 1px 2px rgba(0, 0, 0, 0.05),  /* Subtle shadow from bottom and right */
+      0 3px 4px rgba(0, 0, 0, 0.1);    
+/*     border-radius: 5px;   */
+/*   inset: 6px; */
+/*   background: pink; */
 }
 .bill-items .item {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -297,6 +303,7 @@ body {
   border-radius: 8px;
   height: 55px;
   width: 100%;
+/*   overflow: hidden; */
 }
 .bill-items .item .name {
   font-weight: bold;
@@ -308,7 +315,8 @@ body {
   background-color: lavender;
 }
 .total-container {
-  padding: 3px 8px 0 8px;
+  padding: 0;
+/*   background: red; */
 }
 .bill-total {
   background: #EDEDED;
@@ -316,7 +324,7 @@ body {
   border-radius: 8px;
   max-height: 144px;
   width: 100%;
-  padding: 8px;
+  padding: 8px 12px;
 }
 .bill-total ul {
   display: flex;
@@ -354,7 +362,8 @@ body {
   grid-template-rows: 35% 65%;
   min-height: 233px;
   width: 100%;
-  padding: 4px 8px 8px;
+/*   padding: 4px 6px 6px; */
+/*   background: red; */
 }
 .bill-control button {
 /*   border-radius: 3px; */
