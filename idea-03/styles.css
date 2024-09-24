@@ -37,6 +37,14 @@
     background-color: #9e9e9e;   /* Darker color on hover */
 }
 
+/* Comment the Firefox Scrollbar styles, to hide the scroll track, and show only the thumb */
+/* Firefox Scrollbar */
+* {
+    scrollbar-width: thin;            /* Slim scrollbar */
+    scrollbar-color: #c1c1c1 #f0f0f0; /* Thumb color and track color */
+}
+
+
 html,
 body {
   font-family: sans-serif;
